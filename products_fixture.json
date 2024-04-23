@@ -1,0 +1,39 @@
+[
+    {
+        "model": "myapp.product",
+        "pk": 1,
+        "fields": {
+            "name": "Anxiety",
+            "price": 40.00,
+            "description": "12\"x18\"\nThis painting conveys the anguish of living with extreme anxiety. It is informed by the artist's own life experience and suffering at the hands of an unwieldy subconscious. The most mundane days become a battlefield."
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 2,
+        "fields": {
+            "name": "Bloom",
+            "price": 700.00,
+            "description": "48\"x60\"\nAn explosion of Spring. Quiet, dark depths soon give way to an eruption of pinks and purples, extending well into the clear sky. There is a simultaneous feeling of tranquility and abruptness."
+        }
+    },
+    {
+        "model": "myapp.product",
+        "pk": 3,
+        "fields": {
+            "name": "Obsession",
+            "price": 40.00,
+            "description": "12\"x18\"\nShimmering gold dust floats through the palette knife strokes, careening away from the center. Just ahead, a darkness lurks, come to quash any semblance of normalcy. A cold, calculating blue hangs in the delicate balance."
+        }
+    },
+    {
+        "model":"myapp.product",
+        "pk": 4,
+        "fields": {
+            "name": "Wavelength",
+            "price": 500.00,
+            "description": "36\"x48\"\nThe inaudible proof someone was here, this piece is a loud screech cutting through a formidable darkness. It is a contradiction of the senses, a calamity in the midst of quiet, its choppy, uneven waves slicing across the canvas as if across a cutting board."
+        }
+    }
+
+]

@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+h1 {
+    text-decoration: wavy;
+    font-variant: small-caps;
+    font-family: 'Garamond', serif;
+    text-align: center;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+}
+h3 {
+    font-family: 'Garamond', serif;
+    font-style: italic;
+    text-align: center;
+}
+a {
+    transition: color 0.3s ease-in-out;
+}
+/* index */
+#list-paintings {
+    max-width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#list-paintings a{
+    color: black;
+    text-decoration: none;
+}
+#list-paintings a:hover {
+    color: darkgray;
+    text-decoration:double;
+}
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: square;
+}
+li {
+    margin: 20px;
+}
+li::marker {
+    width: 15px;
+    height: 15px;
+}
+/* show */
+#painting {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 60px;
+}
+@media (max-width: 780px) {
+    #painting {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+p {
+    line-height: 30px;
+}
+#painting a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+#painting a:hover {
+    color: rgb(133, 133, 133);
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: auto;
+    padding: 10px;
+}

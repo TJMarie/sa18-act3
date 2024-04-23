@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section id="list-paintings">
+    <h1>Paintings For Sale</h1>
+    <ul>
+        {% for product in products %}
+        <li><a href="{% url 'product_detail' product.id %}">{{ product.name }}</a></li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}
